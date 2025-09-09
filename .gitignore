@@ -1,0 +1,64 @@
+# Node
+node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# pnpm store (symlinks are fine, but not the store itself if inside repo)
+.pnpm-store/
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.out.*
+*.err
+*.err.*
+*.pid
+*.seed
+*.pid.lock
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Builds / Outputs
+dist/
+build/
+.cache/
+.next/
+out/
+tmp/
+temp/
+
+# Astro specific
+.astro/
+
+# Vite specific
+vite.config.ts.timestamp-*
+
+# NestJS
+/apps/backend/*.js
+/apps/backend/**/*.js.map
+
+# Test coverage
+coverage/
+*.lcov
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+*.bak
+*.orig
+*.rej
