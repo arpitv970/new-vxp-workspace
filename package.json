@@ -2,7 +2,7 @@
 	"name": "new-vxp-workspace",
 	"private": true,
 	"version": "0.0.1",
-	"description": "This is the mono-repo for my workout saas, maintaining web-pages, main app, api, styling, even for mobile app in future",
+	"description": "",
 	"scripts": {
 		"format": "pnpm exec biome format --write",
 		"lint": "pnpm exec biome lint --write",
@@ -22,6 +22,7 @@
 		"format:web": "pnpm --filter web exec biome format --write",
 		"lint:web": "pnpm --filter web exec biome lint --write",
 		"dev:docs": "pnpm --filter docs run dev",
+		"start:docs": "pnpm --filter docs run start",
 		"build:docs": "pnpm --filter docs run build",
 		"preview:docs": "pnpm --filter docs run preview",
 		"format:docs": "pnpm --filter docs exec biome format --write",
