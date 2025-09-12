@@ -20,6 +20,7 @@ A modular blueprint for building a low-latency, backend-controlled voice agent t
 * [Security, Scalability, and Best Practices](security-scalability-and-best-practices)
 * [Overall Architecture](overall-architecture)
 * [Implementation References and Resources](implementation-references-and-resources)
+* [Rag: Docs, Blogs and Tutorials](rag-blogs-docs-and-tutorials)
 * [Actionable Next Steps & TODOs](actionable-next-steps--todos)
 
 
