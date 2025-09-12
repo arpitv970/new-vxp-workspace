@@ -70,6 +70,10 @@ export default defineConfig({
               slug: "agentic-voice-ai/implementation-references-and-resources",
             },
             {
+              label: "Rag: Blogs, Docs, and Tutorials",
+              slug: "agentic-voice-ai/rag-blogs-docs-and-tutorials",
+            },
+            {
               label: "Actionable Next Steps",
               slug: "agentic-voice-ai/actionable-next-steps--todos",
             },
