@@ -32,6 +32,7 @@
 		"preview:app": "pnpm --filter app run preview",
 		"format:app": "pnpm --filter app exec biome format --write",
 		"lint:app": "pnpm --filter app exec biome lint --write",
+    "format:media-service": "pnpm --filter media-service exec biome format --write",
 		"proto:gen": "mkdir -p ./packages/proto/generated && pnpx protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=./packages/proto/generated --ts_proto_opt=esModuleInterop=true,forceLong=string,grpcJs=true --proto_path=./packages/proto ./packages/proto/*.proto"
 	},
 	"keywords": [],
