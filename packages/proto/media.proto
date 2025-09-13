@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package media;
+
+// Service Defination
+service MediaService {
+  // Start a new media session (returns as sessionId)
+  rpc StartSession(StartSessionRequest) returns (StartSessionResponse);
+
+  // Stream audio (bi-directional: client sends audio, server sends responses)
+  rpc StreamAudio(stream AudioChunk) returns (stream AudioResponse);
+}
+
+// Messages
+message StartSessionRequest { string client_id = 1; }
+
+message StartSessionResponse { string session_id = 1; }
+
+message AudioChunk {
+  bytes pcm = 1; // raw PCM audio buffer
+}
+
+message AudioResponse {
+  string text = 1; // e.g, partial transcript
+}
